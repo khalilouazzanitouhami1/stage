@@ -9,7 +9,13 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <asp:Button ID="Button1" runat="server" Text="Button" Height="95px" Width="251px" />
+        <asp:Button ID="Button1" runat="server" Text="Button" Height="95px" Width="251px" BorderStyle="Double" OnClick="Button1_Click" />
+        <asp:ImageMap ID="ImageMap1" runat="server">
+        </asp:ImageMap>
+        <asp:Image ID="Image1" runat="server" Height="74px" />
+        <br />
+        <br />
+        <asp:ImageButton ID="ImageButton1" runat="server" Height="130px" OnClick="ImageButton1_Click" />
     </div>
     </form>
 </body>
